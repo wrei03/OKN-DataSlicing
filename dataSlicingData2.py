@@ -72,26 +72,28 @@ def create_information_data(question_code): #
     #removing any values that are "unknown" with a value of .
     #isn't working
     answer_code = data_dictionary[data_dictionary['Question_code']==question_code]['Answer_code'].iloc[0]
-    filtered_data = data[data[answer_code] != '.']
-        #modified #[data[substance_code_column] == 1] #has to do with something here as to why it's not directly pulling from the answer meaning column
-    #substance_row = substances[substances['SubstanceName'] == substance_name]
-    #substance_id = substance_row['SubstanceID'].iloc[0]
+    data[answer_code] = data[answer_code].replace('.', '0')
+    
+    # Convert the values to integers safely
+    try:
+        data[answer_code] = data[answer_code].astype(int)
+    except ValueError:
+        raise ValueError(f"Cannot convert values in column '{answer_code}' to integers. Check for non-numeric values.")
+    # Convert the Series to integers
+    #answer_code= answer_code.replace('.', '0')
+    #answer_code = answer_code.astype(int)
+    filtered_data = data[data[answer_code] != 0]
     
     information_data = pd.DataFrame()
     information_data['PersonID'] = filtered_data['QUESTID2']
-    #information_data['SubstanceID'] = substance_id
-    #information_data['DaysConsumedPast30Days'] = apply_mapping(days_column, filtered_data[days_column])
-    #information_data['? Unknown'] = apply_mapping(recency_question, filtered_data[recency_question])
+
     if question_code:
         information_data['Question'] = apply_name_mapping(question_code, filtered_data[question_code])
         information_data['Answer'] = apply_mapping(question_code, filtered_data[question_code]) #filtered_data[recency_question])
-        #information_data['Answer Name'] = apply_mapping (filtered_data[recency_question], answer_name)
-        #information_data['Answer Meaning'] = apply_mapping (filtered_data[recency_question], answer_meaning)
     else:
         information_data['Question'] = ' '
         information_data['Answer'] = ' '
-        #information_data['Answer Name'] = ' '
-        #information_data['Answer Meaning'] = ' '
+    
     #what if the names were hardcoded?
 
     #if the answer value is equal to something, also add what it means
