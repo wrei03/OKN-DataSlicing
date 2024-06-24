@@ -1,0 +1,101 @@
+Question_code,Answer_type,Answer_code,Answer_name,Answer_meaning
+QUESTID2,direct,,Respondent identification,The unique record indentifier given to the respondent for this particular study year
+AGE3,optional,1,12 or 13 years old,The respondent is 12 or 13 years old
+AGE3,optional,2,14 or 15 years old,The respondent is 14 or 15 years old
+AGE3,optional,3,16 or 17 years old,The respondent is 16 or 17 years old
+AGE3,optional,4,Between 18 and 20 years old,The respondent is between 18 and 20 years old
+AGE3,optional,5,Between 21 and 23 years old,The respondent is between 21 and 23 years old
+AGE3,optional,6,24 or 25 years old,The respondent is 24 or 25 years old
+AGE3,optional,7,Between 26 and 29 years old,The respondent is between 26 and 29 years old
+AGE3,optional,8,Between 30 and 34 years old,The respondent is between 30 and 34 years old
+AGE3,optional,9,Between 35 and 49 years old,The respondent is between 35 and 49 years old
+AGE3,optional,10,Between 50 and 64 years old,The respondent is between 50 and 64 years old
+AGE3,optional,11,65 years old or older,The respondent is 65 years old or older
+IRSEX,optional,1,Male,The respondent is male
+IRSEX,optional,2,Female,The respondent is female
+COUTYP4,optional,1,Large Metro,The respondent resides in a large metropolitan area
+COUTYP4,optional,2,Small metro,The respondent resides in a small metropolitan area
+COUTYP4,optional,3,Nonmetro,The respondent does not live in a metropolitan area
+IRCIGRC,optional,1,Cigarette  Recency,Last used within the past 30 days
+IRCIGRC,optional,2,Cigarette  Recency,Last used more than 30 days ago but within the past 12 months
+IRCIGRC,optional,3,Cigarette  Recency,Last used ore than 12 months ago but within the past 3 years
+IRCIGRC,optional,4,Cigarette  Recency,Last used more than 3 years ago
+IRCIGRC,optional,9,Cigarette  Recency,Never smoked a cigarette
+IRCGRRC,optional,1,Cigar Recency,Last used within the past 30 days
+IRCGRRC,optional,2,Cigar Recency,Last used more than 30 days ago but within the past 12 months
+IRCGRRC,optional,3,Cigar Recency,Last used more than 12 months ago but within the past 3 years
+IRCGRRC,optional,4,Cigar Recency,Last used more than 3 years ago
+IRCGRRC,optional,9,Cigar Recency,Never smoked cigars
+IRPIPLF,optional,1,Lifetime Pipe Use,Used a pipe in their lifetime
+IRPIPLF,optional,9,Lifetime Pipe Use,Never used a pipe in their lifetime
+IRNICVAPREC,optional,1,Nicotine Vape Recency,Last used within the past 30 days
+IRNICVAPREC,optional,2,Nicotine Vape Recency,Last used more than 30 days ago but within the past 12 months
+IRNICVAPREC,optional,3,Nicotine Vape Recency,Last used more than 12 months ago but within the past 3 years
+IRNICVAPREC,optional,4,Nicotine Vape Recency,Last used more than 3 years ago
+IRNICVAPREC,optional,9,Nicotine Vape Recency,Never vaped nicotine
+IRSMKLSSREC,optional,1,Smokeless Tobacco Recency,Last used within the past 30 days
+IRSMKLSSREC,optional,2,Smokeless Tobacco Recency,Last used more than 30 days ago but within the past 12 months
+IRSMKLSSREC,optional,3,Smokeless Tobacco Recency,Last used more than 12 months ago but within the past 3 years
+IRSMKLSSREC,optional,4,Smokeless Tobacco Recency,Last used more than 3 years ago
+IRSMKLSSREC,optional,9,Smokeless Tobacco Recency,Never used smokeless tobacco
+IRALCRC,optional,1,Alcohol Recency,Last used within the past 30 days
+IRALCRC,optional,2,Alcohol Recency,Last used more than 30 days ago but within the past 12 months
+IRALCRC,optional,3,Alcohol Recency,Last used more than 12 months ago but within the past 3 years
+IRALCRC,optional,9,Alcohol Recency,Never used alcohol
+IRCBDHMPREC,optional,1,CBD/Hemp Recency,Last used within the past 30 days
+IRCBDHMPREC,optional,2,CBD/Hemp Recency,Last used more than 30 days ago but within the past 12 months
+IRCBDHMPREC,optional,3,CBD/Hemp Recency,Last used more than 12 months ago but within the past 3 years
+IRCBDHMPREC,optional,4,CBD/Hemp Recency,Last used more than 3 years ago
+IRCBDHMPREC,optional,9,CBD/Hemp Recency,Never used CBD or hemp
+IRMJRC,optional,1,Marijuana Recency,Last used within the past 30 days
+IRMJRC,optional,2,Marijuana Recency,Last used more than 30 days ago but within the past 12 months
+IRMJRC,optional,3,Marijuana Recency,Last used more than 12 months ago 
+IRMJRC,optional,9,Marijuana Recency,Never used marijuana
+IRCOCRC,optional,1,Cocaine Recency,Last used within the past 30 days
+IRCOCRC,optional,2,Cocaine Recency,Last used more than 30 days ago but within the past 12 months
+IRCOCRC,optional,3,Cocaine Recency,Last used more than 12 months ago 
+IRCOCRC,optional,9,Cocaine Recency,Never used cocaine
+IRCRKRC,optional,1,Crack Recency,Last used within the past 30 days
+IRCRKRC,optional,2,Crack Recency,Last used more than 30 days ago but within the past 12 months
+IRCRKRC,optional,3,Crack Recency,Last used more than 12 months ago 
+IRCRKRC,optional,9,Crack Recency,Never used crack
+IRHERRC,optional,1,Heroine Recency,Last used within the past 30 days
+IRHERRC,optional,2,Heroine Recency,Last used more than 30 days ago but within the past 12 months
+IRHERRC,optional,3,Heroine Recency,Last used more than 12 months ago 
+IRHERRC,optional,9,Heroine Recency,Never used heroine
+IRHALLUCREC,optional,1,Hallucinogen Recency,Last used within the past 30 days
+IRHALLUCREC,optional,2,Hallucinogen Recency,Last used more than 30 days ago but within the past 12 months
+IRHALLUCREC,optional,3,Hallucinogen Recency,Last used more than 12 months ago 
+IRHALLUCREC,optional,9,Hallucinogen Recency,Never used hallucinogens
+IRLSDRC,optional,1,LSD Recency,Last used within the past 30 days
+IRLSDRC,optional,2,LSD Recency,Last used more than 30 days ago but within the past 12 months
+IRLSDRC,optional,3,LSD Recency,Last used more than 12 months ago 
+IRLSDRC,optional,9,LSD Recency,Never used LSD
+IRPCPRC,optional,1,PCP Recency,Last used within the past 30 days
+IRPCPRC,optional,2,PCP Recency,Last used more than 30 days ago but within the past 12 months
+IRPCPRC,optional,3,PCP Recency,Last used more than 12 months ago 
+IRPCPRC,optional,9,PCP Recency,Never used PCP
+IRECSTMOREC,optional,1,Ecstasy Recency,Last used within the past 30 days
+IRECSTMOREC,optional,2,Ecstasy Recency,Last used more than 30 days ago but within the past 12 months
+IRECSTMOREC,optional,3,Ecstasy Recency,Last used more than 12 months ago 
+IRECSTMOREC,optional,9,Ecstasy Recency,Never used ecstasy
+IRKETMINREC,optional,1,Ketamine Recency,Last used within the past 30 days
+IRKETMINREC,optional,2,Ketamine Recency,Last used more than 30 days ago but within the past 12 months
+IRKETMINREC,optional,3,Ketamine Recency,Last used more than 12 months ago 
+IRKETMINREC,optional,9,Ketamine Recency,Never used ketamine
+IRDAMTFXREC,optional,1,DMT/AMT/FOXY Recency,Last used within the past 30 days
+IRDAMTFXREC,optional,2,DMT/AMT/FOXY Recency,Last used more than 30 days ago but within the past 12 months
+IRDAMTFXREC,optional,3,DMT/AMT/FOXY Recency,Last used more than 12 months ago 
+IRDAMTFXREC,optional,9,DMT/AMT/FOXY Recency,Never used DMT/AMT/FOXY
+IRSALVIAREC,optional,1,Salvia Recency,Last used within the past 30 days
+IRSALVIAREC,optional,2,Salvia Recency,Last used more than 30 days ago but within the past 12 months
+IRSALVIAREC,optional,3,Salvia Recency,Last used more than 12 months ago 
+IRSALVIAREC,optional,9,Salvia Recency,Never used salvia
+IRINHALREC,optional,1,Inhalant Recency,Last used within the past 30 days
+IRINHALREC,optional,2,Inhalant Recency,Last used more than 30 days ago but within the past 12 months
+IRINHALREC,optional,3,Inhalant Recency,Last used more than 12 months ago 
+IRINHALREC,optional,9,Inhalant Recency,Never used inhalants
+IRMETHAMREC,optional,1,Methamphetamine Recency,Last used within the past 30 days
+IRMETHAMREC,optional,2,Methamphetamine Recency,Last used more than 30 days ago but within the past 12 months
+IRMETHAMREC,optional,3,Methamphetamine Recency,Last used more than 12 months ago 
+IRMETHAMREC,optional,9,Methamphetamine Recency,Never used methamphetamines

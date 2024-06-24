@@ -1,0 +1,31 @@
+﻿Question_code,Answer_type,Answer_code,Answer_name,Answer_meaning
+QUESTID2,direct,,Respondent identification,The unique record indentifier given to the respondent for this particular study year
+AGE3,optional,1,12 or 13 years old,The respondent is 12 or 13 years old
+AGE3,optional,2,14 or 15 years old,The respondent is 14 or 15 years old
+AGE3,optional,3,16 or 17 years old,The respondent is 16 or 17 years old
+AGE3,optional,4,Between 18 and 20 years old,The respondent is between 18 and 20 years old
+AGE3,optional,5,Between 21 and 23 years old,The respondent is between 21 and 23 years old
+AGE3,optional,6,24 or 25 years old,The respondent is 24 or 25 years old
+AGE3,optional,7,Between 26 and 29 years old,The respondent is between 26 and 29 years old
+AGE3,optional,8,Between 30 and 34 years old,The respondent is between 30 and 34 years old
+AGE3,optional,9,Between 35 and 49 years old,The respondent is between 35 and 49 years old
+AGE3,optional,10,Between 50 and 64 years old,The respondent is between 50 and 64 years old
+AGE3,optional,11,65 years old or older,The respondent is 65 years old or older
+IRSEX,optional,1,Male,The respondent is male
+IRSEX,optional,2,Female,The respondent is female
+SMIRSUD5ANY,optional,.,Potential for a serious mental illness and or substance use disorder,Underage (12-17)
+SMIRSUD5ANY,optional,1,Potential for a serious mental illness and or substance use disorder,Yes (SMI)
+SMIRSUD5ANY,optional,2,Potential for a serious mental illness and or substance use disorder,No (SMI)
+SMISUD5ANYO,optional,.,Potential for a serious mental illness and or substance use disorder,Underage (12-17)
+SMISUD5ANYO,optional,1,Potential for a serious mental illness and or substance use disorder,"SUD only, no SMI"
+SMISUD5ANYO,optional,2,Potential for a serious mental illness and or substance use disorder,"SMI only, no SUD"
+SMISUD5ANYO,optional,3,Potential for a serious mental illness and or substance use disorder,Both SUD and SMI
+SMISUD5ANYO,optional,4,Potential for a serious mental illness and or substance use disorder,Neither SUD nor SMI
+AMIRSUD5ANY,optional,.,Potential for a serious mental illness and or substance use disorder,Underage(
+AMIRSUD5ANY,optional,1,Potential for a serious mental illness and or substance use disorder,Yes (AMI)
+AMIRSUD5ANY,optional,2,Potential for a serious mental illness and or substance use disorder,No (AMI)
+AMISUD5ANYO,optional,.,Potential for a serious mental illness and or substance use disorder,Underage (12-17)
+AMISUD5ANYO,optional,1,Potential for a serious mental illness and or substance use disorder,"SUD only, no AMI"
+AMISUD5ANYO,optional,2,Potential for a serious mental illness and or substance use disorder,"AMI only, no SUD"
+AMISUD5ANYO,optional,3,Potential for a serious mental illness and or substance use disorder,Both SUD and AMI
+AMISUD5ANYO,optional,4,Potential for a serious mental illness and or substance use disorder,Neither SUD nor AMI
